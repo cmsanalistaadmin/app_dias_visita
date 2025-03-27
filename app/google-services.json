@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1014950039269",
+    "project_id": "beta1cms",
+    "storage_bucket": "beta1cms.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1014950039269:android:699f625e9a944a3089ce0c",
+        "android_client_info": {
+          "package_name": "com.example.visita_frias"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLirBdvasWz4efStJHLoDHho7YwfpXCJg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -5,26 +5,37 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".prueba2"
+    tools:context=".Welcome_screen"
     android:background="@color/white">
 
 
-    
+
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:gravity="center"
         android:orientation="vertical"
-        android:gravity="center">
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="208dp">
+
+        <ImageView
+            android:layout_width="281dp"
+            android:layout_height="113dp"
+            android:layout_gravity="center"
+            android:scaleType="fitStart"
+            android:src="@drawable/logobeta1" />
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="436dp"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:gravity="center"
             android:text="PROVEEDORES DE OPORTUNIDADES"
             android:textColor="#4400ff"
             android:textSize="35sp"
             android:textStyle="bold" />
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
